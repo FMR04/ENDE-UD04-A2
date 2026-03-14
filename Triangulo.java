@@ -46,4 +46,6 @@ public class Triangulo extends Figura {
 		double sp = perimetro() / 2;
 		return Math.sqrt(sp * (sp - lado1) * (sp - lado2) * (sp - lado3));
 	}
+	System.out.println("Calculo hecho");
+
 }
