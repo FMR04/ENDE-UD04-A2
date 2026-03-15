@@ -11,9 +11,9 @@ public class PruebaFigura {
 		do {
 			opcion = mostrarMenu();
 			if (opcion != 4) {
-				System.out.print("Introduzca la coordenada x del centro: ");
+				System.out.print("Introduzca la coordenada X del centro: ");
 				double x = teclado.nextDouble();
-				System.out.print("Introduzca la coordenada y del centro: ");
+				System.out.print("Introduzca la coordenada Y del centro: ");
 				double y = teclado.nextDouble();
 				switch (opcion) {
 				case 1:
